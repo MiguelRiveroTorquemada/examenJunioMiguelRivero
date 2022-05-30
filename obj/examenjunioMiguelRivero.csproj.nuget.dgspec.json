@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\migue\\Desktop\\DAW\\2º\\ENTORNO CLIENTE\\EXAMEN_JUNIO\\examenjunioMiguelRivero\\examenjunioMiguelRivero.csproj": {}
+    "C:\\Users\\migue\\Desktop\\DAW\\2º\\ENTORNO CLIENTE\\EXAMEN_JUNIO\\examenjunioMiguelRivero\\examenJunioMiguelRivero.csproj": {}
   },
   "projects": {
-    "C:\\Users\\migue\\Desktop\\DAW\\2º\\ENTORNO CLIENTE\\EXAMEN_JUNIO\\examenjunioMiguelRivero\\examenjunioMiguelRivero.csproj": {
+    "C:\\Users\\migue\\Desktop\\DAW\\2º\\ENTORNO CLIENTE\\EXAMEN_JUNIO\\examenjunioMiguelRivero\\examenJunioMiguelRivero.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\migue\\Desktop\\DAW\\2º\\ENTORNO CLIENTE\\EXAMEN_JUNIO\\examenjunioMiguelRivero\\examenjunioMiguelRivero.csproj",
-        "projectName": "examenjunioMiguelRivero",
-        "projectPath": "C:\\Users\\migue\\Desktop\\DAW\\2º\\ENTORNO CLIENTE\\EXAMEN_JUNIO\\examenjunioMiguelRivero\\examenjunioMiguelRivero.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\Desktop\\DAW\\2º\\ENTORNO CLIENTE\\EXAMEN_JUNIO\\examenjunioMiguelRivero\\examenJunioMiguelRivero.csproj",
+        "projectName": "examenJunioMiguelRivero",
+        "projectPath": "C:\\Users\\migue\\Desktop\\DAW\\2º\\ENTORNO CLIENTE\\EXAMEN_JUNIO\\examenjunioMiguelRivero\\examenJunioMiguelRivero.csproj",
         "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\migue\\Desktop\\DAW\\2º\\ENTORNO CLIENTE\\EXAMEN_JUNIO\\examenjunioMiguelRivero\\obj\\",
         "projectStyle": "PackageReference",
@@ -38,6 +38,28 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.16.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
